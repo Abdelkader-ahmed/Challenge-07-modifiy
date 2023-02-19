@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+        font-family: 'Red Hat Display', sans-serif;
+        Font-size: 16px;
+        background-color: hsl(225, 100%, 94%);
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-position-y: -115px;
+     
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.wapper{
+    background-color: white;
+    width: 340px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 90px;
+    border-radius: 11px;
+}
+.main-photo{
+    width: 340px;
+}
+.wapper h1{
+    text-align: center;
+    font-size:22px ;
+     font-weight: 900; 
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 30px;
+    color: hsl(223, 47%, 23%);
+
+}
+.wapper p{
+  text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: 'Red Hat Display', sans-serif;
+     font-weight: 700;
+     color:hsl(224, 23%, 55%);
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    margin-top: 22px;
+    width: 290px;
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 11px;
+    margin-bottom: 10PX;
+}
+.price-photo img{
+width: 38px;
+height: 38px;
+margin-left: 11px;
+
+
+
+}
+.price-text{
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+line-height: .4;
+transform: translate(-37px,7px);
+}
+.wapper a{
+    transform: translate(30px,10px);
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+
+}
+.wapper a:hover{
+ color:hsl(245, 75%, 52%) ;
+} 
+.bt-1{
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 20px;
+   width: 290px;
+    margin-left: 25px;
+    padding: 10px;
+    color: white;  
+    margin-bottom: 50 px;
+    
+}
+.bt-1:hover{
+opacity: .9;
+color:white ;
+cursor: pointer;
+
+}
+
+.bt-2:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: 900;
+
+}
+/* @media only screen and (min-width:375) and(max-width:1440px) {
+    
+}
+
+ */
